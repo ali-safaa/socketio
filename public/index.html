@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="join-container">
+      <header class="join-header">
+        <h1>chat cord</h1>
+      </header>
+      <main class="join-main">
+        <form action="chat.html">
+          <div class="form-control">
+            <label for="username">user name</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="enter user name..."
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="room">room</label>
+            <select name="room" id="room">
+              <option value="javaScript">javaScript</option>
+              <option value="Python">Python</option>
+              <option value="PHP">PHP</option>
+              <option value="C#">C#</option>
+              <option value="Ruby">Ruby</option>
+              <option value="Java">Java</option>
+            </select>
+          </div>
+          <button type="submit" class="btn">Join Chat</button>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
